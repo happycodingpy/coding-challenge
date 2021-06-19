@@ -1,8 +1,6 @@
 // Invertir Array
 // Vamos a recibir un array, y debemos invertirlo
-const reverseArray = arr => {
-  return arr.toString().split('').reverse().join('');
-};
+const reverseArray = arr => arr.toString().split('').reverse().join('');
 
 const a = reverseArray([1, 2, 3, 4, 5]);
 const b = reverseArray([11, 22, 3, 45, 5, 6, 15]);
